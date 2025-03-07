@@ -2,7 +2,6 @@ local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local gameID = 16732694052 -- Replace with the actual game ID
 
-if game.GameId == gameID then
-    LocalPlayer:Kick("You have been kicked ip 124.652.623
-country austrila.")
+if game.PlaceId == gameID then
+    LocalPlayer:Kick("You have been detected. Please do not rejoin.")
 end
